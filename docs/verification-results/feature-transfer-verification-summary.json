@@ -1,0 +1,46 @@
+{
+  "version": "0.3.0",
+  "target": "/Users/wallezen/Documents/agentspace/rea-unity-game/rae-unity-game/.verification/feature-transfer/TargetGameValidated",
+  "workspace": "/Users/wallezen/Documents/agentspace/rea-unity-game/rae-unity-game/.verification/feature-transfer/source-workspace",
+  "unity": {
+    "unity_version": "2022.3.62f3",
+    "status": "pass",
+    "cases": [
+      "negative storage clamps to zero",
+      "negative setter saves zero",
+      "nonpositive additions ignored",
+      "input command and positive additions sum",
+      "consume returns amount then clears",
+      "repeat consume is zero",
+      "int32 overflow wraps then clamps",
+      "disable/re-enable preserves balance",
+      "new instance reads persisted value",
+      "consume input command clears balance"
+    ],
+    "limit": "Actual Unity PlayMode command, state, persistence and lifecycle checks. No Android runtime, hardware click, source-game execution or visual parity check."
+  },
+  "transferred_files": [
+    {
+      "path": "Assets/PendingCoinRecreation/PendingCoinsFeature.cs",
+      "sha256": "40454c0c9f0772e0ef8d2c8bf1c4d13794dc8d283b0ba814ae365f9a42f11cde",
+      "guid": "e87770b563d417b816762fa54961189f",
+      "current_sha256": "40454c0c9f0772e0ef8d2c8bf1c4d13794dc8d283b0ba814ae365f9a42f11cde"
+    },
+    {
+      "path": "Assets/PendingCoinRecreation/PendingCoinsView.cs",
+      "sha256": "086760d1826c2fbd2f80e5f643e954f17ca03760b147b37ac7dedbb40a2306e7",
+      "guid": "d957ff941a602d8e6dbfd15c8e4e5b5c",
+      "current_sha256": "086760d1826c2fbd2f80e5f643e954f17ca03760b147b37ac7dedbb40a2306e7"
+    },
+    {
+      "path": "Assets/PendingCoinRecreation/Editor/NativeTransferValidation.cs",
+      "sha256": "c17499604ba43d8330f1a146c8402f18dac0902bb6c5e9df9418e9a5d2cd1f4d",
+      "guid": "2166cab9e9535dc7dc1799ee733da812",
+      "current_sha256": "c17499604ba43d8330f1a146c8402f18dac0902bb6c5e9df9418e9a5d2cd1f4d"
+    }
+  ],
+  "plan_sha256": "de71d0ad7b67ba895a2333e09aa0afa23b53ee0cf1ef4aaaadc5f440186719da",
+  "receipt_sha256": "ceb6ad4ac6f053a1fa4a93a82a3fe45f423164010face09575f249716d4a7481",
+  "marker_id": "pending-coins-playmode-0.3.0",
+  "scope": "Bounded real APK static evidence and prior exact-hash catalog -> native-byte feature explanation -> new Unity target; not a fresh arbitrary APK-only/device parity result"
+}

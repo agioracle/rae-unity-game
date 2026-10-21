@@ -1,0 +1,17 @@
+{
+    "unity_version": "2022.3.62f3",
+    "status": "pass",
+    "cases": [
+        "negative storage clamps to zero",
+        "negative setter saves zero",
+        "nonpositive additions ignored",
+        "input command and positive additions sum",
+        "consume returns amount then clears",
+        "repeat consume is zero",
+        "int32 overflow wraps then clamps",
+        "disable/re-enable preserves balance",
+        "new instance reads persisted value",
+        "consume input command clears balance"
+    ],
+    "limit": "Actual Unity PlayMode command, state, persistence and lifecycle checks. No Android runtime, hardware click, source-game execution or visual parity check."
+}

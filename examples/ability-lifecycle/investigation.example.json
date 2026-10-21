@@ -1,0 +1,31 @@
+{
+  "input": "/absolute/authorized-apk-splits",
+  "authorization": "Replace with the actual authorized scope",
+  "investigation": {
+    "caseId": "ability-lifecycle",
+    "question": "Explain ability priming, cancellation, activation and recharge, then integrate the lifecycle into my target Unity project",
+    "targetProject": "/absolute/existing-unity-project",
+    "native": {
+      "mode": "recover",
+      "provider": "libcpp2il",
+      "binary": {
+        "suffix": "lib/arm64-v8a/libil2cpp.so"
+      },
+      "metadata": {
+        "suffix": "Managed/Metadata/global-metadata.dat"
+      },
+      "query": "Ability",
+      "assembly": "Assembly-CSharp",
+      "unityVersion": "6000.3.12f1",
+      "toolVersion": "2022.1.0+b5ad444b82267cb1e4b88b8b373c008105bdea52"
+    },
+    "bundles": [
+      {
+        "artifact": {
+          "suffix": "assets/bin/Data/data.unity3d"
+        },
+        "roots": []
+      }
+    ]
+  }
+}

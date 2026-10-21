@@ -1,0 +1,16 @@
+
+> rea-unity-game@0.1.0 demo
+> npm run build && node scripts/demo.mjs
+
+
+> rea-unity-game@0.1.0 build
+> tsc
+
+{"command":"inspect","ok":true}
+{"command":"init","ok":true}
+{"command":"plan","ok":true}
+{"command":"query","ok":true}
+{"command":"verify","ok":true}
+{"command":"status","ok":true,"gates":{"recovery_accounted":false,"material_gaps":["identity","managed","il2cpp","native","assets","configs","android"],"claims_ready":false,"implementation_allowed":false,"post_mvp_allowed":false}}
+Synthetic workflow completed. Inspect the retained workspace: /Users/wallezen/Documents/agentspace/rea-unity-game/rae-unity-game/.demo/2026-10-19T07-02-36.620Z/restoration
+This does not validate a real Unity game, decompiler, Editor, or device.

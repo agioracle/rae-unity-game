@@ -1,0 +1,10 @@
+{
+  "runtime_package": "rea-agents",
+  "runtime_version": "6.7.0",
+  "source_reference_commit": "e8da7e1edd075feec0e6beedec93d5645fed8125",
+  "source_reference_version": "6.7.0",
+  "distribution_integrity_owner": "npm-shrinkwrap.json",
+  "integration": "Required complete upstream runtime, CLI forwarding and persistent transparent MCP broker",
+  "original_source_checkout_modified": false,
+  "note": "The published runtime version matches the supplied checkout version; this is not a claim that compiled bytes were independently rebuilt from that commit."
+}

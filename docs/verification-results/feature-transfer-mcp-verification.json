@@ -1,0 +1,26 @@
+{
+  "catalog_tools": 235,
+  "original_core_tools": 207,
+  "unity_tools": 28,
+  "results": [
+    {
+      "tool": "unity_map_il2cpp",
+      "ok": true,
+      "status": null
+    },
+    {
+      "tool": "unity_trace_references",
+      "ok": true,
+      "status": "partial"
+    },
+    {
+      "tool": "unity_inspect_target",
+      "ok": true,
+      "status": null
+    }
+  ],
+  "mapped_methods": 4,
+  "reference_nodes": 14,
+  "reference_edges": 49,
+  "target_version": "2022.3.62f3"
+}

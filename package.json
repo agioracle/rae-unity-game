@@ -1,0 +1,58 @@
+{
+  "name": "rea-unity-game",
+  "version": "0.5.0",
+  "description": "REA specialized for Unity game reverse engineering: complete REA core plus Unity tools and reconstruction practice.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "rea-unity-game": "dist/cli.js"
+  },
+  "engines": {
+    "node": "^22.19.0 || ^24.11.0 || >=26.0.0"
+  },
+  "files": [
+    "dist",
+    "python",
+    "skills",
+    "docs",
+    "README.md",
+    "README.zh-CN.md",
+    "THIRD_PARTY_NOTICES.md",
+    "LICENSE",
+    "npm-shrinkwrap.json",
+    "requirements-unity.txt",
+    "licenses",
+    "examples",
+    "analyzers",
+    "android-tools",
+    "native-tools",
+    "scripts/build-libcpp2il-indexer.mjs",
+    "scripts/build-android-touch.mjs",
+    "scripts/verify-real-apk.mjs",
+    "scripts/compare-feature-checkpoints.mjs",
+    "scripts/verify-vendor.mjs",
+    "scripts/apply-feature-transfer.mjs",
+    "scripts/generate-component-schema.py"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "test:python": "python3 -m unittest discover -s tests/python -p 'test_*.py'",
+    "check": "npm run format:check && npm run typecheck && npm test && npm run test:python && node scripts/verify-vendor.mjs",
+    "demo": "npm run build && node scripts/demo.mjs",
+    "prepack": "npm run build && node scripts/verify-vendor.mjs",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/*.mjs\" \"scripts/*.mjs\" package.json tsconfig.json",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/*.mjs\" \"scripts/*.mjs\" package.json tsconfig.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "rea-agents": "6.7.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3"
+  }
+}

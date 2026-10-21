@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "source": "wefund-unity-game-reconstruction",
+  "imported_on": "2026-10-19",
+  "files": [
+    {
+      "source": ".DS_Store",
+      "path": "skills/unity-game-reconstruction/.DS_Store",
+      "sha256": "474fc1f622b3c2278ac93e1302f58f2293c3a84687d88ed988f12ed6eb357d94"
+    },
+    {
+      "source": "SKILL.md",
+      "path": "skills/unity-game-reconstruction/references/upstream-workflow.md",
+      "sha256": "3dea6c252706739dcb8e305a41c1f282f0d0625393c7d1505bc1010b506cbee6"
+    },
+    {
+      "source": "agents/openai.yaml",
+      "path": "skills/unity-game-reconstruction/agents/openai.yaml",
+      "sha256": "790ebfcc4658a33988ffdc091f9aecceb2936a9e7bf6226b8b63d5037bc18421",
+      "original_sha256": "9a0f94e08c48a074e98211573fb034b503b5e0734b394f69d439a7509bcbf7c9",
+      "adaptation": "Use the portable product skill name in the agent default prompt."
+    },
+    {
+      "source": "assets/.DS_Store",
+      "path": "skills/unity-game-reconstruction/assets/.DS_Store",
+      "sha256": "18ead6b8267c9634d42ced3cc12ff41d3df761d3e183bfca18bff7b253e5ffa7"
+    },
+    {
+      "source": "assets/project-guidance/AGENTS.md",
+      "path": "skills/unity-game-reconstruction/assets/project-guidance/AGENTS.md",
+      "sha256": "f196e1656bef8c86cfb981dba899f4645266dcc8de976b7186fca4f02e98cc8e"
+    },
+    {
+      "source": "references/agent-tool-provisioning.md",
+      "path": "skills/unity-game-reconstruction/references/agent-tool-provisioning.md",
+      "sha256": "38c5d713c1a3584135550a8950b9b5aac0c2af0e30152ec52c1577f262187844"
+    },
+    {
+      "source": "references/evidence-claims-and-acceptance.md",
+      "path": "skills/unity-game-reconstruction/references/evidence-claims-and-acceptance.md",
+      "sha256": "e1530c37d7c904299ad3b4257a0ffa6426aa508eb8cdfeb77396f1af7b90deac"
+    },
+    {
+      "source": "references/first-playable-and-production-ledger.md",
+      "path": "skills/unity-game-reconstruction/references/first-playable-and-production-ledger.md",
+      "sha256": "68a8ae01478dd438744f941db4422f255deceebea5110f85047db23421e88885"
+    },
+    {
+      "source": "references/ledger-template.md",
+      "path": "skills/unity-game-reconstruction/references/ledger-template.md",
+      "sha256": "b914098117ff995d9b6e25e80df80155b6c9c78de2db1ed7f27c920bd7235fa1"
+    },
+    {
+      "source": "references/package-recovery.md",
+      "path": "skills/unity-game-reconstruction/references/package-recovery.md",
+      "sha256": "df09f785e6495c020e6aa5aed4e052c0f0c96a5997825d0bc022df2504b3147e"
+    },
+    {
+      "source": "references/package-safety-and-tooling.md",
+      "path": "skills/unity-game-reconstruction/references/package-safety-and-tooling.md",
+      "sha256": "8e2078c2a560550c1b6b17dea8a7768a735054ff708502313450a86a53e5b26e"
+    },
+    {
+      "source": "references/recovery-checklist.md",
+      "path": "skills/unity-game-reconstruction/references/recovery-checklist.md",
+      "sha256": "6eb416c9bcfb2a113748a0b97b0bfe80e09bdefe4c753f136535a7fc5b53257b"
+    },
+    {
+      "source": "references/restoration-ledger-management.md",
+      "path": "skills/unity-game-reconstruction/references/restoration-ledger-management.md",
+      "sha256": "e3bc5b16ea3f453fdeddf9512ad5551e35bfca18ebec40ba24b98621e60bec8d"
+    },
+    {
+      "source": "references/restoration-verification-recipes.md",
+      "path": "skills/unity-game-reconstruction/references/restoration-verification-recipes.md",
+      "sha256": "01eec77d1d7dbab480782c63a998f64fbccc708357ce9142b91c063f765b5e69"
+    },
+    {
+      "source": "references/routing-matrix.md",
+      "path": "skills/unity-game-reconstruction/references/routing-matrix.md",
+      "sha256": "2c5c8af1f8c175b9c61a54eb47747848c37b10f8a784f6a637d732e29115a35e"
+    },
+    {
+      "source": "references/token-efficient-evidence-retrieval.md",
+      "path": "skills/unity-game-reconstruction/references/token-efficient-evidence-retrieval.md",
+      "sha256": "d171a9c501626a97bc309d3453c5e4e48303a61202c826bdeac83165bf69b062"
+    },
+    {
+      "source": "references/unity-original-restoration.md",
+      "path": "skills/unity-game-reconstruction/references/unity-original-restoration.md",
+      "sha256": "ac4a8744f6230bbaf2719f92d1ea3e18ff10829a3c6da37c2a25a59c75339ebc"
+    },
+    {
+      "source": "references/unity-restoration-checklist.md",
+      "path": "skills/unity-game-reconstruction/references/unity-restoration-checklist.md",
+      "sha256": "e74fd6ce2bc1ee3902b95205ad79926420a9fdb8fac6c0fc82117c6c077ea8d9"
+    },
+    {
+      "source": "references/workspace-layout-and-asset-promotion.md",
+      "path": "skills/unity-game-reconstruction/references/workspace-layout-and-asset-promotion.md",
+      "sha256": "df57d7227e85d739bd2eaeab944845a430a522ec320c3aa7b74bbf37b4076fb7"
+    },
+    {
+      "source": "scripts/audit_unity_project_layout.py",
+      "path": "skills/unity-game-reconstruction/scripts/audit_unity_project_layout.py",
+      "sha256": "7b2bdc319c1c0c34cec927ce198edd140c5050a0b491a6d7e41d3c9ab4b64ab1"
+    },
+    {
+      "source": "scripts/bootstrap_project_guidance.py",
+      "path": "skills/unity-game-reconstruction/scripts/bootstrap_project_guidance.py",
+      "sha256": "d44909dc530ca1d7ea3beb2e09fbe5f611e37d53d7f4a790ee1ce4d66a07de3b"
+    },
+    {
+      "source": "scripts/build_joined_view.py",
+      "path": "skills/unity-game-reconstruction/scripts/build_joined_view.py",
+      "sha256": "5f204b6b3977cd4923a7234c4cf0a6df462fbc2479c3563cb9e349610630b78d"
+    },
+    {
+      "source": "scripts/evidence_query.py",
+      "path": "skills/unity-game-reconstruction/scripts/evidence_query.py",
+      "sha256": "49342cbff4f6213d9de614b36dcdf4b867831d0ee89d5a04668d09b160cd2882"
+    },
+    {
+      "source": "scripts/extract_container_leaves.py",
+      "path": "skills/unity-game-reconstruction/scripts/extract_container_leaves.py",
+      "sha256": "f57b41a8eec80c2da1fd6bfabbd7485d43af76a66acb8b31823b7e0aa2269617"
+    },
+    {
+      "source": "scripts/hash_manifest.py",
+      "path": "skills/unity-game-reconstruction/scripts/hash_manifest.py",
+      "sha256": "281750611262190ba30b6cae9feb4d8ef3f295418f7f08fdf3190a8761bbb502"
+    },
+    {
+      "source": "scripts/inspect_unity_package.py",
+      "path": "skills/unity-game-reconstruction/scripts/inspect_unity_package.py",
+      "sha256": "c9ea4563b2a81cd27010fa9cd9c614090787fc6282545af0879e262c6d1acca8"
+    },
+    {
+      "source": "scripts/package_safety.py",
+      "path": "skills/unity-game-reconstruction/scripts/package_safety.py",
+      "sha256": "bc5e17afa073245ed7833795606ac9b0a801dc3f4064668fd6d0f161ca7d79b8"
+    },
+    {
+      "source": "scripts/verify_apk_set_identity.py",
+      "path": "skills/unity-game-reconstruction/scripts/verify_apk_set_identity.py",
+      "sha256": "18e5dac6278bb09805252274e8b1d6b5c7ccac3a51eb00deb31fe6986e0c9a2e"
+    },
+    {
+      "source": "tests/test_evidence_query.py",
+      "path": "tests/python/test_evidence_query.py",
+      "sha256": "8fc0ca01d817a3c0192db65865547f6d85567179cbc696b53093ecfcf6ce7fc8",
+      "original_sha256": "330993c111c0e29c0ece9a24d44368c47bb8776b2808bf6806c769b2d995deb3",
+      "adaptation": "Only repository-relative helper locations changed."
+    },
+    {
+      "source": "tests/test_hash_manifest_stability.py",
+      "path": "tests/python/test_hash_manifest_stability.py",
+      "sha256": "d67baf08a78f71b7b08b5dc9e93467b3eab00011f636aa8969e6570c12bb150f",
+      "original_sha256": "5a80c20538ad42eea4f64cbb35d6d67cb87159dcdae9ddf0725823c16003d386",
+      "adaptation": "Only repository-relative helper locations changed."
+    },
+    {
+      "source": "tests/test_project_guidance.py",
+      "path": "tests/python/test_project_guidance.py",
+      "sha256": "b0ef4215d684ae4444afb36f1f0bfecc1d0bf1c6340e8bb07d17a6fe9b4b4ac7",
+      "original_sha256": "14555c0eacea8dd85f7cd398a52da9cb0720e7631a524fd9bb1f9ad10d84c8e4",
+      "adaptation": "Only repository-relative helper locations changed."
+    },
+    {
+      "source": "tests/test_project_layout.py",
+      "path": "tests/python/test_project_layout.py",
+      "sha256": "407c65fe6ce4c622e476e94d4dd073d090d281aa92760648094c150313d360d9",
+      "original_sha256": "248cb45b30cf72d88fae6f4037b4fc63b75c397f769fa0825b10e38233c8694b",
+      "adaptation": "Only repository-relative helper locations changed."
+    },
+    {
+      "source": "rea/src/dotnet/ManagedPe.fixture.ts",
+      "path": "tests/support/managed-pe-fixture.mjs",
+      "sha256": "c568bc09e42128f1f8054d38a9b83c8d60fe15dee29df922dcbc254678f542ce",
+      "original_sha256": "e9541438735d383af19b7e3efdd883cb64703da524303e0ac1ce38754a502c06",
+      "adaptation": "TypeScript transpilation to an ESM test fixture; original MIT copyright and source hash retained."
+    }
+  ]
+}

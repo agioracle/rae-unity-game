@@ -1,0 +1,5 @@
+using System;using System.IO;using UnityEditor;using UnityEditor.Build.Reporting;using UnityEngine;
+public static class BuildAbilityPlayer
+{
+    public static void Build(){var output=Environment.GetEnvironmentVariable("REA_UNITY_PLAYER_OUTPUT");if(string.IsNullOrEmpty(output)||Directory.Exists(output))throw new InvalidOperationException("Select a new player output path");PlayerSettings.companyName="REA isolated verification";PlayerSettings.productName="REA Ability Lifecycle";PlayerSettings.defaultScreenWidth=960;PlayerSettings.defaultScreenHeight=540;PlayerSettings.fullScreenMode=FullScreenMode.Windowed;var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/AbilityLifecycle/Integrated.unity"},locationPathName=output,target=BuildTarget.StandaloneOSX,options=BuildOptions.Development});File.WriteAllText(Path.Combine(Directory.GetParent(Application.dataPath).FullName,"ability-build.txt"),report.summary.result.ToString());if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Ability Player build failed");}
+}

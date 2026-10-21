@@ -1,0 +1,132 @@
+
+> rea-unity-game@0.1.0 check
+> npm run format:check && npm run typecheck && npm test && npm run test:python && node scripts/verify-vendor.mjs
+
+
+> rea-unity-game@0.1.0 format:check
+> prettier --check "src/**/*.ts" "tests/*.mjs" "scripts/*.mjs" package.json tsconfig.json
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> rea-unity-game@0.1.0 typecheck
+> tsc --noEmit
+
+
+> rea-unity-game@0.1.0 test
+> npm run build && node --test tests/*.test.mjs
+
+
+> rea-unity-game@0.1.0 build
+> tsc
+
+TAP version 13
+# Subtest: SDK stdio client discovers and calls the same strict named CLI contracts
+ok 1 - SDK stdio client discovers and calls the same strict named CLI contracts
+  ---
+  duration_ms: 207.931458
+  type: 'test'
+  ...
+# Subtest: unknown CLI flags and missing flag values return structured input errors
+ok 2 - unknown CLI flags and missing flag values return structured input errors
+  ---
+  duration_ms: 267.095417
+  type: 'test'
+  ...
+# Subtest: nested split packages preserve leaf provenance and query budgets
+ok 3 - nested split packages preserve leaf provenance and query budgets
+  ---
+  duration_ms: 551.851667
+  type: 'test'
+  ...
+# Subtest: desktop Unity player directory has its own backend and complete file hash inventory
+ok 4 - desktop Unity player directory has its own backend and complete file hash inventory
+  ---
+  duration_ms: 371.2125
+  type: 'test'
+  ...
+# Subtest: input symlinks, symlink members, file-prefix collisions and query escapes are rejected
+ok 5 - input symlinks, symlink members, file-prefix collisions and query escapes are rejected
+  ---
+  duration_ms: 714.654292
+  type: 'test'
+  ...
+# Subtest: recovery accounting, material gaps, markers and explicit versioned acceptance remain independent
+ok 6 - recovery accounting, material gaps, markers and explicit versioned acceptance remain independent
+  ---
+  duration_ms: 2050.353625
+  type: 'test'
+  ...
+# Subtest: changed evidence and duplicate records fail; writer lock prevents lost updates
+ok 7 - changed evidence and duplicate records fail; writer lock prevents lost updates
+  ---
+  duration_ms: 477.676958
+  type: 'test'
+  ...
+# Subtest: acceptance and advancement reject evidence changed after readiness or acceptance
+ok 8 - acceptance and advancement reject evidence changed after readiness or acceptance
+  ---
+  duration_ms: 1339.1955
+  type: 'test'
+  ...
+# Subtest: changing a P3 roadmap archives and invalidates earlier acceptance
+ok 9 - changing a P3 roadmap archives and invalidates earlier acceptance
+  ---
+  duration_ms: 1592.714333
+  type: 'test'
+  ...
+# Subtest: same-version readiness cannot reactivate a prior waiver for a changed scope
+ok 10 - same-version readiness cannot reactivate a prior waiver for a changed scope
+  ---
+  duration_ms: 1485.6545
+  type: 'test'
+  ...
+# Subtest: REA adapter retains static analysis provenance using a protocol fixture (not a real-provider validation)
+ok 11 - REA adapter retains static analysis provenance using a protocol fixture (not a real-provider validation)
+  ---
+  duration_ms: 909.374
+  type: 'test'
+  ...
+# Subtest: public inspection preserves backend evidence and inventories without source mutation
+ok 12 - public inspection preserves backend evidence and inventories without source mutation
+  ---
+  duration_ms: 188.178542
+  type: 'test'
+  ...
+# Subtest: workspace intake preserves bytes and refuses overwrite
+ok 13 - workspace intake preserves bytes and refuses overwrite
+  ---
+  duration_ms: 370.228709
+  type: 'test'
+  ...
+# Subtest: rejects traversal archive before publishing a workspace
+ok 14 - rejects traversal archive before publishing a workspace
+  ---
+  duration_ms: 162.206959
+  type: 'test'
+  ...
+# Subtest: rejects duplicate archive before publishing a workspace
+ok 15 - rejects duplicate archive before publishing a workspace
+  ---
+  duration_ms: 162.366791
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6980.967875
+
+> rea-unity-game@0.1.0 test:python
+> python3 -m unittest discover -s tests/python -p 'test_*.py'
+
+.........................
+----------------------------------------------------------------------
+Ran 25 tests in 0.842s
+
+OK
+Verified 32 vendored files against recorded SHA-256 digests.

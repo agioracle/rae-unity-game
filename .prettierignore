@@ -1,0 +1,8 @@
+node_modules/
+dist/
+skills/
+python/
+README*
+docs/
+THIRD_PARTY_NOTICES.md
+npm-shrinkwrap.json

@@ -1,0 +1,128 @@
+{
+  "caseId": "reviewed-ability-cycle",
+  "serial": "REVIEW_DEVICE_SERIAL",
+  "package": "com.luckykat.siegesquad",
+  "width": 2400,
+  "height": 1080,
+  "apkPaths": [
+    "recovered/00_original/source/com.luckykat.siegesquad.apk",
+    "recovered/00_original/source/config.arm64_v8a.apk"
+  ],
+  "actions": [
+    {
+      "kind": "wait-until",
+      "signal": {
+        "roi": {
+          "x": 1120,
+          "y": 850,
+          "width": 160,
+          "height": 160
+        },
+        "rgb": {
+          "min": [
+            200,
+            0,
+            0
+          ],
+          "max": [
+            255,
+            110,
+            110
+          ]
+        },
+        "fraction": {
+          "min": 0.3,
+          "max": 1
+        }
+      },
+      "timeoutMs": 40000,
+      "pollMs": 500
+    },
+    {
+      "kind": "hold",
+      "points": [
+        {
+          "x": 440,
+          "y": 940
+        },
+        {
+          "x": 1950,
+          "y": 940
+        }
+      ],
+      "durationMs": 60
+    },
+    {
+      "kind": "capture"
+    },
+    {
+      "kind": "hold",
+      "points": [
+        {
+          "x": 440,
+          "y": 940
+        },
+        {
+          "x": 1950,
+          "y": 940
+        }
+      ],
+      "durationMs": 1000
+    },
+    {
+      "kind": "capture"
+    },
+    {
+      "kind": "hold",
+      "points": [
+        {
+          "x": 440,
+          "y": 940
+        }
+      ],
+      "durationMs": 8000
+    },
+    {
+      "kind": "wait-until",
+      "signal": {
+        "roi": {
+          "x": 1120,
+          "y": 850,
+          "width": 160,
+          "height": 160
+        },
+        "rgb": {
+          "min": [
+            200,
+            0,
+            0
+          ],
+          "max": [
+            255,
+            110,
+            110
+          ]
+        },
+        "fraction": {
+          "min": 0.3,
+          "max": 1
+        }
+      },
+      "timeoutMs": 6000,
+      "pollMs": 500
+    },
+    {
+      "kind": "hold",
+      "points": [
+        {
+          "x": 1200,
+          "y": 920
+        }
+      ],
+      "durationMs": 1000
+    },
+    {
+      "kind": "capture"
+    }
+  ]
+}

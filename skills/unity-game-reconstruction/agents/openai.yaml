@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Game Reconstruction"
+  short_description: "Restore Unity games with traceable evidence."
+  default_prompt: "Use $unity-game-reconstruction to recover authorized Unity evidence. Deliver a playable MVP for my acceptance before broader restoration. Report validation limits."

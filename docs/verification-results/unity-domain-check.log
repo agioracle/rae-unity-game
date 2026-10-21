@@ -1,0 +1,234 @@
+
+> rea-unity-game@0.3.0 check
+> npm run format:check && npm run typecheck && npm test && npm run test:python && node scripts/verify-vendor.mjs
+
+
+> rea-unity-game@0.3.0 format:check
+> prettier --check "src/**/*.ts" "tests/*.mjs" "scripts/*.mjs" package.json tsconfig.json
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> rea-unity-game@0.3.0 typecheck
+> tsc --noEmit
+
+
+> rea-unity-game@0.3.0 test
+> npm run build && node --test tests/*.test.mjs
+
+
+> rea-unity-game@0.3.0 build
+> tsc
+
+TAP version 13
+# Subtest: SDK stdio client discovers and calls the same strict named CLI contracts
+ok 1 - SDK stdio client discovers and calls the same strict named CLI contracts
+  ---
+  duration_ms: 3113.152375
+  type: 'test'
+  ...
+# Subtest: unknown CLI flags and missing flag values return structured input errors
+ok 2 - unknown CLI flags and missing flag values return structured input errors
+  ---
+  duration_ms: 270.690334
+  type: 'test'
+  ...
+# Subtest: broker preserves colliding backend callback IDs, progress, cancellation and resources from only one backend
+ok 3 - broker preserves colliding backend callback IDs, progress, cancellation and resources from only one backend
+  ---
+  duration_ms: 240.764042
+  type: 'test'
+  ...
+# Subtest: Unity edition exposes the entire real REA catalog unchanged plus domain tools
+ok 4 - Unity edition exposes the entire real REA catalog unchanged plus domain tools
+  ---
+  duration_ms: 5890.821583
+  type: 'test'
+  ...
+# Subtest: one edition session executes real REA managed inspection and Unity intake, retaining original evidence
+ok 5 - one edition session executes real REA managed inspection and Unity intake, retaining original evidence
+  ---
+  duration_ms: 776.625625
+  type: 'test'
+  ...
+# Subtest: ordinary CLI commands use the actual REA implementation without requiring another installation
+ok 6 - ordinary CLI commands use the actual REA implementation without requiring another installation
+  ---
+  duration_ms: 839.435375
+  type: 'test'
+  ...
+# Subtest: nested split packages preserve leaf provenance and query budgets
+ok 7 - nested split packages preserve leaf provenance and query budgets
+  ---
+  duration_ms: 783.901083
+  type: 'test'
+  ...
+# Subtest: desktop Unity player directory has its own backend and complete file hash inventory
+ok 8 - desktop Unity player directory has its own backend and complete file hash inventory
+  ---
+  duration_ms: 456.754708
+  type: 'test'
+  ...
+# Subtest: input symlinks, symlink members, file-prefix collisions and query escapes are rejected
+ok 9 - input symlinks, symlink members, file-prefix collisions and query escapes are rejected
+  ---
+  duration_ms: 863.388209
+  type: 'test'
+  ...
+# Subtest: feature context binds a question and real target Unity project to package artifacts and core investigation tools
+ok 10 - feature context binds a question and real target Unity project to package artifacts and core investigation tools
+  ---
+  duration_ms: 411.037125
+  type: 'test'
+  ...
+# Subtest: ELF map distinguishes provider RVA, ELF VA, file offset, absent pointers and shared aliases
+ok 11 - ELF map distinguishes provider RVA, ELF VA, file offset, absent pointers and shared aliases
+  ---
+  duration_ms: 1.422834
+  type: 'test'
+  ...
+# Subtest: ARM Thumb normalization is explicit; unsafe numeric and malformed ELF addresses fail
+ok 12 - ARM Thumb normalization is explicit; unsafe numeric and malformed ELF addresses fail
+  ---
+  duration_ms: 0.440167
+  type: 'test'
+  ...
+# Subtest: ELF32 rejects load segments, method pointers and runtime addresses beyond its class width
+ok 13 - ELF32 rejects load segments, method pointers and runtime addresses beyond its class width
+  ---
+  duration_ms: 0.157791
+  type: 'test'
+  ...
+# Subtest: IL2CPP analyzer is explicitly capability-driven and missing installation is actionable
+ok 14 - IL2CPP analyzer is explicitly capability-driven and missing installation is actionable
+  ---
+  duration_ms: 6.807667
+  type: 'test'
+  ...
+# Subtest: configured analyzer subprocess feeds the shared mapper with exact execution/source attribution
+ok 15 - configured analyzer subprocess feeds the shared mapper with exact execution/source attribution
+  ---
+  duration_ms: 720.342125
+  type: 'test'
+  ...
+# Subtest: recovery accounting, material gaps, markers and explicit versioned acceptance remain independent
+ok 16 - recovery accounting, material gaps, markers and explicit versioned acceptance remain independent
+  ---
+  duration_ms: 2550.621292
+  type: 'test'
+  ...
+# Subtest: changed evidence and duplicate records fail; writer lock prevents lost updates
+ok 17 - changed evidence and duplicate records fail; writer lock prevents lost updates
+  ---
+  duration_ms: 561.166458
+  type: 'test'
+  ...
+# Subtest: acceptance and advancement reject evidence changed after readiness or acceptance
+ok 18 - acceptance and advancement reject evidence changed after readiness or acceptance
+  ---
+  duration_ms: 1521.240083
+  type: 'test'
+  ...
+# Subtest: changing a P3 roadmap archives and invalidates earlier acceptance
+ok 19 - changing a P3 roadmap archives and invalidates earlier acceptance
+  ---
+  duration_ms: 1779.563084
+  type: 'test'
+  ...
+# Subtest: same-version readiness cannot reactivate a prior waiver for a changed scope
+ok 20 - same-version readiness cannot reactivate a prior waiver for a changed scope
+  ---
+  duration_ms: 1606.7225
+  type: 'test'
+  ...
+# Subtest: actual pinned UnityPy decoding bounds empty vectors before ordinary and automatic AssetBundle expansion
+ok 21 - actual pinned UnityPy decoding bounds empty vectors before ordinary and automatic AssetBundle expansion
+  ---
+  duration_ms: 593.099667
+  type: 'test'
+  ...
+# Subtest: REA adapter retains static analysis provenance using a protocol fixture (not a real-provider validation)
+ok 22 - REA adapter retains static analysis provenance using a protocol fixture (not a real-provider validation)
+  ---
+  duration_ms: 999.797958
+  type: 'test'
+  ...
+# Subtest: serialized PPtr graph resolves explicit externals and cycles, preserves field paths and marks missing targets
+ok 23 - serialized PPtr graph resolves explicit externals and cycles, preserves field paths and marks missing targets
+  ---
+  duration_ms: 749.04125
+  type: 'test'
+  ...
+# Subtest: target transfer profiles real settings, rewrites GUID references and applies into one new feature folder
+ok 24 - target transfer profiles real settings, rewrites GUID references and applies into one new feature folder
+  ---
+  duration_ms: 346.144167
+  type: 'test'
+  ...
+# Subtest: target transfer rejects stale inputs, unresolved GUIDs and traversal before any writes
+ok 25 - target transfer rejects stale inputs, unresolved GUIDs and traversal before any writes
+  ---
+  duration_ms: 184.16475
+  type: 'test'
+  ...
+# Subtest: orphan .meta files cannot satisfy target serialized GUID dependencies
+ok 26 - orphan .meta files cannot satisfy target serialized GUID dependencies
+  ---
+  duration_ms: 171.559708
+  type: 'test'
+  ...
+# Subtest: UnityPy inspects a real serialized TextAsset, keeping 64-bit PathID and source hashes
+ok 27 - UnityPy inspects a real serialized TextAsset, keeping 64-bit PathID and source hashes
+  ---
+  duration_ms: 2137.519083
+  type: 'test'
+  ...
+# Subtest: duplicate serialized PathIDs are rejected before UnityPy dictionary overwrite
+ok 28 - duplicate serialized PathIDs are rejected before UnityPy dictionary overwrite
+  ---
+  duration_ms: 494.761
+  type: 'test'
+  ...
+# Subtest: public inspection preserves backend evidence and inventories without source mutation
+ok 29 - public inspection preserves backend evidence and inventories without source mutation
+  ---
+  duration_ms: 244.052791
+  type: 'test'
+  ...
+# Subtest: workspace intake preserves bytes and refuses overwrite
+ok 30 - workspace intake preserves bytes and refuses overwrite
+  ---
+  duration_ms: 438.473833
+  type: 'test'
+  ...
+# Subtest: rejects traversal archive before publishing a workspace
+ok 31 - rejects traversal archive before publishing a workspace
+  ---
+  duration_ms: 204.576
+  type: 'test'
+  ...
+# Subtest: rejects duplicate archive before publishing a workspace
+ok 32 - rejects duplicate archive before publishing a workspace
+  ---
+  duration_ms: 193.895417
+  type: 'test'
+  ...
+1..32
+# tests 32
+# suites 0
+# pass 32
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8071.967333
+
+> rea-unity-game@0.3.0 test:python
+> python3 -m unittest discover -s tests/python -p 'test_*.py'
+
+.............................
+----------------------------------------------------------------------
+Ran 29 tests in 0.892s
+
+OK
+Verified 33 vendored files against recorded SHA-256 digests.

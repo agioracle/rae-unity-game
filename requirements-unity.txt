@@ -1,0 +1,6 @@
+# Optional domain parser. Install in a project-local virtual environment.
+# Official project: https://github.com/K0lb3/UnityPy
+UnityPy==1.25.4
+
+# Optional native navigation decoder.
+Capstone==5.0.6
