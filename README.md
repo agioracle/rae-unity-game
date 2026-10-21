@@ -6,7 +6,7 @@ Provide an authorized APK, ask how a feature works, and let your host agent inve
 
 [简体中文](README.zh-CN.md) · [Feature workflow](skills/unity-game-reconstruction/references/feature-investigation.md) · [Architecture](docs/architecture.md) · [Verification](docs/verification.md)
 
-Version 0.2 makes `rea-agents@6.7.0` a required runtime. Original REA tools, sessions, providers, schemas, Evidence and errors stay intact. The Unity edition adds domain tools and practice; the host agent retains reasoning, code authoring and orchestration. The checkout directory remains `rae-unity-game`.
+Version 0.2 makes `rea-agents@6.7.0` a required runtime. Original REA tools, sessions, providers, schemas, Evidence and errors stay intact. The Unity edition adds domain tools and practice; the host agent retains reasoning, code authoring and orchestration. The checkout directory is `rea-unity-game`.
 
 ## Start
 
@@ -35,7 +35,7 @@ A workspace must be a new private path. Intake preserves failed/interrupted outp
   "mcpServers": {
     "rea-unity-game": {
       "command": "node",
-      "args": ["/absolute/path/rae-unity-game/dist/cli.js", "mcp"]
+      "args": ["/absolute/path/rea-unity-game/dist/cli.js", "mcp"]
     }
   }
 }

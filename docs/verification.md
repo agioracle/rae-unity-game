@@ -4,6 +4,8 @@ Latest Unity-domain validation: [0.3 feature transfer case](feature-transfer-ver
 
 # Verification scope
 
+Checkout paths in retained verification summaries and log excerpts have been normalized to the current `rea-unity-game` directory name. This editorial update does not represent a rerun of the recorded checks; original local run artifacts remain unchanged.
+
 Run `npm run check`, `npm run demo`, and the installed-tarball smoke test before release. The package smoke test unpacks a fresh tarball and uses its own shrinkwrap for an isolated `npm ci --omit=dev` installation, then runs its runtime outside the checkout. Test counts and executed evidence for this implementation are recorded in [the 0.2 verification record](rea-edition-verification.md). The initial domain-only results remain in implementation-log.md as history.
 
 The automated boundaries include real CLI processes, an official MCP SDK client/server session, generated Mono and IL2CPP marker packages, nested split extraction and provenance, desktop player inventories, changed evidence, duplicate IDs, writer locks, traversal/duplicate/symlink/prefix rejection, query scope/budgets, recovery gates, version-matched marker checks and explicit acceptance gates.

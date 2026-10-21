@@ -2,7 +2,7 @@
 
 Build a local CLI and MCP server that lets agents reconstruct authorized Unity games from inspectable evidence. The user requested implementation from REA and the battle-tested Unity Game Reconstruction skill, and explicitly selected autonomous implementation (2026-10-19: “直接做”).
 
-The product name and CLI are `rea-unity-game`. Keep the user's existing repository directory `rae-unity-game`.
+The product name and CLI are `rea-unity-game`. Keep the user's existing repository directory `rea-unity-game`.
 
 ## Product flow
 

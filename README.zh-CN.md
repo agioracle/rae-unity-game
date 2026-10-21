@@ -6,7 +6,7 @@
 
 0.2 版本将完整 `rea-agents@6.7.0` 作为必需运行时。统一 MCP 包含原始 REA 工具，以及 Unity 领域扩展；原有反编译、交叉引用、追踪、分析会话和 Evidence 不再被缩减为两个可选检查命令。宿主智能体负责推理、代码编写和工具编排。
 
-仓库目录保留 `rae-unity-game`，产品与命令为 `rea-unity-game`。[English](README.md)
+仓库目录、产品与命令统一为 `rea-unity-game`。[English](README.md)
 
 ## 使用
 
@@ -35,7 +35,7 @@ node dist/cli.js unity feature-context --workspace /路径/restoration \
   "mcpServers": {
     "rea-unity-game": {
       "command": "node",
-      "args": ["/绝对路径/rae-unity-game/dist/cli.js", "mcp"]
+      "args": ["/绝对路径/rea-unity-game/dist/cli.js", "mcp"]
     }
   }
 }

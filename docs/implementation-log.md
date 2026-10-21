@@ -35,7 +35,7 @@ No review findings remain deferred.
 
 ## Implementation decisions and limits
 
-The existing directory spelling `rae-unity-game` is retained; product/package/CLI use `rea-unity-game`. REA is an optional companion, not a copied native engine graph. `project/` is an empty reserved root until an agent creates a real compatible Unity project. External decompilers/exporters and Editor/device work are explicit handoffs. No real-game parity is claimed.
+The directory, product, package and CLI are named `rea-unity-game`. REA is an optional companion, not a copied native engine graph. `project/` is an empty reserved root until an agent creates a real compatible Unity project. External decompilers/exporters and Editor/device work are explicit handoffs. No real-game parity is claimed.
 
 Source snapshots and scope records are local evidence, not independent attestations. Caller-provided validation/acceptance records require truthful authorized reporting. Stale lock removal and incomplete-intake retry require inspection; the tool does not delete existing workspaces automatically.
 

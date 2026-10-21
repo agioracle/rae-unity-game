@@ -12,5 +12,5 @@
 {"command":"query","ok":true}
 {"command":"verify","ok":true}
 {"command":"status","ok":true,"gates":{"recovery_accounted":false,"material_gaps":["identity","managed","il2cpp","native","assets","configs","android"],"claims_ready":false,"implementation_allowed":false,"post_mvp_allowed":false}}
-Synthetic workflow completed. Inspect the retained workspace: /Users/wallezen/Documents/agentspace/rea-unity-game/rae-unity-game/.demo/2026-10-19T07-46-27.891Z/restoration
+Synthetic workflow completed. Inspect the retained workspace: /Users/wallezen/Documents/agentspace/rea-unity-game/rea-unity-game/.demo/2026-10-19T07-46-27.891Z/restoration
 This does not validate a real Unity game, decompiler, Editor, or device.

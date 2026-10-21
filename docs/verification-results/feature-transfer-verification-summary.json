@@ -1,7 +1,7 @@
 {
   "version": "0.3.0",
-  "target": "/Users/wallezen/Documents/agentspace/rea-unity-game/rae-unity-game/.verification/feature-transfer/TargetGameValidated",
-  "workspace": "/Users/wallezen/Documents/agentspace/rea-unity-game/rae-unity-game/.verification/feature-transfer/source-workspace",
+  "target": "/Users/wallezen/Documents/agentspace/rea-unity-game/rea-unity-game/.verification/feature-transfer/TargetGameValidated",
+  "workspace": "/Users/wallezen/Documents/agentspace/rea-unity-game/rea-unity-game/.verification/feature-transfer/source-workspace",
   "unity": {
     "unity_version": "2022.3.62f3",
     "status": "pass",

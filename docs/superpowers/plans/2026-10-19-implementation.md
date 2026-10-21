@@ -7,7 +7,7 @@
 
 ## Global constraints
 
-- Keep implementation in the existing `rae-unity-game` repository.
+- Keep implementation in the existing `rea-unity-game` repository.
 - Preserve the reference `rea` project and original skill.
 - Keep source evidence outside authored Unity assets.
 - No automatic installation of unrelated software, target execution, publishing or commits.
